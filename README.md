@@ -71,7 +71,4 @@ From this top-level menu, users can navigate to sub-menus using the following co
 - STM32 microcontroller with LPUART support.
 - Serial interface configured for RS-232 (115200 8N1).
 - PC terminal software (e.g., PuTTY).
-
-## License
-
 This project is provided under an open-source license (add specific license if applicable).
