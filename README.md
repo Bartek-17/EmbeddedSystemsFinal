@@ -3,7 +3,7 @@ the hierarchical menu on the serial console. The program should use the LPUART p
 information with the user. The program must be written in C using STM documentation for the microcontroller
 registers.
 
-The application should fulfil the following requirements:
+The application fulfulls such requierements:
 • Messages are read and written on the PC terminal (e.g. PuTTY application)
 • Program should run on ARM processor connected to PC using EIA RS 232 serial interface (LPUART
 module) with the following parameters: baud rate - 115200 bauds, 8 data bits, no parity, single stop bit
@@ -29,35 +29,6 @@ D, C>)
 (e.g. Status),
 • All commands should be case insensitive (all commands are valid: Display, display,DISPlay)
 • Command HELP executed on some level displays help only for this level
-
-Menu structure:
-Menu level:
-LED>
-Set <id>
-Clear <id>
-Blink <id>
-Status <id>
-Toggle <id>
-Command function
-Top level
-Turn on LED (id: 0-7 or R,G,B)
-Turn off LED (id: 0-7 or R,G,B)
-Blink LED five times (id: 0-7 or R,G,B)
-Display on/off status of LED (id: 0-7 or R,G,B)
-Invert LED state (id: 0-7 or R,G,B)
-7LED>
-Display <val>
-Read
-Joy>
-Read <id>
-LPUART>
-Status
-Display number from 0 to 9999 on the 7-LED display
-Display on the terminal the number from 7-LED display
-Display on the terminal the current state of joystick buttons
-(id: L – left, R – right, U – up, D – down, C - center)
-Display baudrate, number of databits and parity bits,
-informations read from registers and then calculated baudrate
 
 
 Additional information:
